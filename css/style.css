@@ -88,6 +88,10 @@ select {
   color: white;
 }
 
+select option {
+  color: #000000;
+}
+
 .filter-form {
   display: block;
   margin: 0 auto;
@@ -95,13 +99,11 @@ select {
   width: 810px;
 }
 
-.btn.filter {
+.filter-btn {
   padding-left: 47px;
   padding-right: 47px;
   color: #fff;
 }
-
-
 
 h2 {
   font-size: 44px;
@@ -238,7 +240,10 @@ h2 {
     width: 100px;
   }
   .footer-social {
-    margin-left: 5%;
+    margin-left: 7%;
+  }
+  .subscribe-form {
+    margin-left: 12%;
   }
 }
 
@@ -283,6 +288,12 @@ h2 {
   padding: 10px 60px;
   margin-top: 30px;
   margin-left: 247px;
+}
+
+.contacts-btn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid #323232;
+  padding: 9px 59px;
 }
 
 .footer-social {
@@ -334,6 +345,10 @@ h2 {
   margin-top: 72px;
 }
 
+.social-btn:hover {
+  opacity: 0.7;
+}
+
 address {
   font-size: 10px;
   color: #767a88;
@@ -341,8 +356,8 @@ address {
 }
 
 .subscribe-form {
-  float: right;
-  margin-right: 220px;
+  float: left;
+  margin-left: 7%;
   margin-top: 50px;
 }
 
@@ -355,6 +370,10 @@ address {
   background-color: transparent;
 }
 
+.subscribe-form-email:hover {
+  border-bottom: 2px solid #fff;
+}
+
 .subscribe-form-email:focus {
   outline: none;
   border-bottom: 2px solid #fff;
@@ -363,6 +382,15 @@ address {
 .subscribe-form-btn {
   color: #fff;
   padding: 7px 28px;
+}
+
+.subscribe-form-btn:hover, .filter-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.subscribe-form-btn:focus, .filter-btn:focus {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 @media screen and (max-width: 1000px) {
@@ -379,8 +407,8 @@ address {
   .footer-social ul{
     padding-left: 0;
   }
-  .subscribe-form {
-    margin-right: 0;
+  .footer-social {
+    margin-left: 4%;
   }
 }
 
@@ -411,25 +439,20 @@ address {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
-
   from {
     opacity: 0;
     transform: translate3d(3000px, 0, 0);
   }
-
   60% {
     opacity: 1;
     transform: translate3d(-25px, 0, 0);
   }
-
   75% {
     transform: translate3d(10px, 0, 0);
   }
-
   90% {
     transform: translate3d(-5px, 0, 0);
   }
-
   to {
     transform: none;
   }
@@ -443,25 +466,20 @@ address {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
-
   0% {
     opacity: 0;
     transform: translate3d(-3000px, 0, 0);
   }
-
   60% {
     opacity: 1;
     transform: translate3d(25px, 0, 0);
   }
-
   75% {
     transform: translate3d(-10px, 0, 0);
   }
-
   90% {
     transform: translate3d(5px, 0, 0);
   }
-
   to {
     transform: none;
   }
