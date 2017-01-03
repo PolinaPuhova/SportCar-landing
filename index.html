@@ -1,0 +1,192 @@
+<DOCTYPE html>
+  <html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>SportCar Company</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--Start header-->
+    <header>
+      <div class="container clearfix">
+        <div class="logotype">
+          <a href="#">
+            <h1 class="main-menu-title"><span class="main-menu-title-name">SportCar</span><br> Company</h1>
+          </a>
+        </div>
+        <nav>
+          <ul class="main-menu-list">
+            <li>
+              <a href="#">
+                  Home
+                </a>
+            </li>
+            <li>
+              <a href="#">
+                  Automobile
+                </a>
+            </li>
+            <li>
+              <a href="#">
+                  Business
+                </a>
+            </li>
+            <li>
+              <a href="#">
+                  About us
+                </a>
+            </li>
+            <li>
+              <a href="#">
+                  Contact
+                </a>
+            </li>
+          </ul>
+        </nav>
+        <form class="filter-form">
+          <div class="filter form-select-country">
+            <label for="select-country">Country:</label>
+            <select class="select-country" id="select-country" name="country">
+                <option class="select-option">Italy</option>
+                <option class="select-option">Japan</option>
+                <option class="select-option">Russia</option>
+              </select>
+          </div>
+          <div class="filter form-select-brand">
+            <label for="select-brand">Brand:</label>
+            <select class="select-brand" id="select-brand" name="brand">
+                <option class="select-option">Lamborghini</option>
+                <option class="select-option">Jaguar</option>
+                <option class="select-option">Ferrary</option>
+              </select>
+          </div>
+          <button class="btn filter" class="submit">Start</button>
+        </form>
+      </div>
+    </header>
+    <!--Finish header-->
+    <!--Start content-->
+    <main>
+      <div class="container clearfix">
+        <!--Start preview image block-->
+        <div class="main-preview">
+          <img class="main-preview-image" src="img/preview1-big.jpg" alt="Lamborghini" width="100%" height="auto">
+          <div class="main-preview-description">
+            <h2>Lamborghini <br><span class="model">Aventador</span></h2>
+            <ul>
+              <li>
+                6.5 - liter engine
+              </li>
+              <li>
+                2-cylinder engine
+              </li>
+              <li>
+                capacity of 700 liters
+              </li>
+              <li>
+                maximum speed of 350 km/h (218 miles/h)
+              </li>
+              <li>
+                acceleration to 100 km/h takes 2.9 seconds
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Finish preview image block-->
+        <!--Start contact block-->
+        <div class="contacts clearfix">
+          <div class="contacts-column contacts-sellers" id="contacts-sellers">
+            <div class="contacts-title">
+              <p>Contacts seller</p>
+            </div>
+            <div class="contacts-phone">
+              <a href="tel:12133178677">+1 (213) 317-86-77</p>
+            </div>
+            <div class="contacts-mail">
+              <a href="Lamborghiny@gmail.com">Lamborghiny@gmail.com</a>
+            </div>
+            <div class="contacts-map">
+              <p>200 N. Spring Street Los Angeles</p>
+            </div>
+          </div>
+          <div class="contacts-column separator"></div>
+          <div class="contacts-column contacts-form" id="contacts-form">
+            <div class="contacts-title">
+              <p>Contacts form</p>
+            </div>
+            <form>
+              <div class="contacts-form-content clearfix">
+                <div class="field contacts-name-field">
+                  <label for="contacts-name">Name</label>
+                  <input class="contacts-form-input" id="contacts-name" required name="contacts-name" type="text" placeholder="Alina">
+                </div>
+                <div class="field">
+                  <label for="contacts-email">E-mail</label>
+                  <input class="contacts-form-input" id="contacts-email" required name="contacts-email" type="email" placeholder="AlinaExample@gmail.com">
+                </div>
+                <div class="field">
+                  <label for="contacts-phone-form">Phone</label>
+                  <input class="contacts-form-input" id="contacts-phone-form" required name="contacts-phone-form" type="text" placeholder="+_(_ _ _) ___-__-__">
+                </div>
+                <div class="field">
+                  <label for="contacts-message">Message</label>
+                  <textarea class="contacts-form-input" id="contacts-message" name="contacts-message" placeholder="Your message" rows="10"></textarea>
+                </div>
+              </div>
+              <input class="btn contacts-btn" type="submit" value="Send">
+            </form>
+          </div>
+        </div>
+        <!--Finish contact block-->
+      </div>
+    </main>
+    <!--Finish content-->
+
+    <!--Start footer-->
+    <footer>
+      <div class="container clearfix">
+        <div class="footer-logotype">
+          <div class="logotype">
+            <a href="#">
+              <h1 class="main-menu-title"><span class="main-menu-title-name">SportCar</span> Company</h1>
+            </a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <address>
+            &copy; Copyright 2015, SportCar Company
+          </address>
+        </div>
+        <div class="footer-social">
+          <ul>
+            <li class="social-btn social-btn-twitter">
+              <a href="#"></a>
+            </li>
+            <li class="social-btn social-btn-facebook">
+              <a href="#"></a>
+            </li>
+            <li class="social-btn social-btn-instagram">
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe-form">
+          <form>
+            <input type="text" class="subscribe-form-email" placeholder="Enter your E-mail address">
+            <input class="btn subscribe-form-btn" type="submit" value="Subscribe">
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!--Finish footer-->
+
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="js/maskedinput.min.js"></script>
+    <script src="js/phonemask.js"></script>
+    <script src="js/animation.js"></script>
+
+  </body>
+
+  </html>

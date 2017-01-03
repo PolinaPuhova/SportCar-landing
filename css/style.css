@@ -1,0 +1,472 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Verdana", "Arial", sans-serif;
+  background-color: #031337;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  min-width: 900px;
+  max-width: 1366px;
+  margin: auto;
+}
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+h1 {
+  font-size: 16px;
+}
+
+.main-menu-list {
+  display: block;
+  margin: 0 auto;
+  margin-top: 31px;
+  width: 647px;
+}
+
+.main-menu-list>li {
+  display: inline-block;
+  margin-right: 37px;
+}
+
+.main-menu-list a {
+  font-size: 18px;
+  color: white;
+}
+
+.logotype {
+  display: block;
+  margin: 0 auto;
+  width: 185px;
+}
+
+.logotype a {
+  color: white;
+}
+
+.main-menu-title-name {
+  font-size: 36px;
+}
+
+.main-menu-title {
+  font-size: 24px;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.filter {
+  display: inline-block;
+  margin-right: 42px;
+}
+
+.filter label {
+  color: #a4a7ae;
+}
+
+select {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  width: 166px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 27px;
+  height: 28px;
+  color: white;
+}
+
+.filter-form {
+  display: block;
+  margin: 0 auto;
+  margin-top: 33px;
+  width: 810px;
+}
+
+.btn.filter {
+  padding-left: 47px;
+  padding-right: 47px;
+  color: #fff;
+}
+
+
+
+h2 {
+  font-size: 44px;
+  margin: 0;
+}
+
+.main-preview-description li, h2 {
+  color: #fff;
+}
+
+.model {
+  font-size: 32px;
+}
+
+.main-preview {
+  position: relative;
+}
+
+.main-preview-description {
+  position: absolute;
+  top: 40%;
+  right: 6%;
+}
+
+.main-preview-description ul {
+  display: block;
+  width: 250px;
+  padding-left: 15px;
+}
+
+.contacts {
+  height: 630px;
+  background-color: #fff;
+}
+
+.contacts-sellers {
+  float: left;
+  min-width: 290px;
+  width: 25%;
+  padding-left: 20%;
+}
+
+.contacts-form {
+  float: left;
+  max-width: 400px;
+  min-width: 300px;
+}
+
+.contacts-column {
+  padding-top: 50px;
+}
+
+.contacts-form label {
+  font-size: 22px;
+  margin-right: 23px;
+  float: left;
+}
+
+.contacts-title {
+  font-size: 20px;
+}
+
+.contacts-phone, .contacts-mail, .contacts-map {
+  font-size: 24px;
+}
+
+.contacts-phone {
+  position: relative;
+  margin-top: 92px;
+}
+
+.contacts-phone::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -80px;
+  display: block;
+  vertical-align: top;
+  width: 35px;
+  height: 71px;
+  background-repeat: no-repeat;
+  background-image: url("../img/phone.png");
+}
+
+.contacts-mail {
+  position: relative;
+}
+
+.contacts-mail::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -80px;
+  display: block;
+  vertical-align: top;
+  width: 56px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-image: url("../img/email.png");
+}
+
+.contacts-map {
+  position: relative;
+}
+
+.contacts-map::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -80px;
+  display: block;
+  vertical-align: top;
+  width: 41px;
+  height: 62px;
+  background-repeat: no-repeat;
+  background-image: url("../img/location.png")
+}
+
+.contacts-mail, .contacts-map {
+  margin-top: 84px;
+}
+
+.separator {
+  float: left;
+  height: 500px;
+  margin-right: 5%;
+  margin-top: 55px;
+  margin-left: 4%;
+  border: 1px solid #d9dce2;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-copyright {
+    width: 100px;
+  }
+  .footer-social {
+    margin-left: 5%;
+  }
+}
+
+.contacts-sellers a {
+  color: black;
+}
+
+.contacts-form-input {
+  border: 1px solid #b3b8c4;
+  margin-top: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 44px;
+  width: 260px;
+  float: right;
+}
+
+#contacts-message {
+  resize: none;
+  height: 130px;
+}
+
+.contacts-form-content label {
+  margin-top: 50px;
+}
+
+.contacts-name-field label {
+  margin-top: 40px;
+}
+
+.contacts-form p {
+  margin-bottom: 45px;
+  padding-left: 70px;
+}
+
+.field {
+  text-align: right;
+}
+
+.contacts-btn {
+  border: 1px solid #323232;
+  padding: 10px 60px;
+  margin-top: 30px;
+  margin-left: 247px;
+}
+
+.footer-social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  padding-left: 4%;
+}
+
+.footer-social li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social-btn-twitter a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/twitter.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-facebook a {
+  display: block;
+  width: 32px;
+  height: 50px;
+  background-image: url("../img/facebook.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-instagram a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/instagram.png");
+  background-repeat: no-repeat;
+}
+
+.footer-logotype {
+  float: left;
+  margin-left: 11%;
+  position: relative;
+}
+
+.footer-copyright {
+  float: left;
+  margin-top: 72px;
+}
+
+address {
+  font-size: 10px;
+  color: #767a88;
+  font-style: normal;
+}
+
+.subscribe-form {
+  float: right;
+  margin-right: 220px;
+  margin-top: 50px;
+}
+
+.subscribe-form-email {
+  font-size: 14px;
+  padding-left: 5px;
+  color: #fff;
+  border-color: transparent;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+}
+
+.subscribe-form-email:focus {
+  outline: none;
+  border-bottom: 2px solid #fff;
+}
+
+.subscribe-form-btn {
+  color: #fff;
+  padding: 7px 28px;
+}
+
+@media screen and (max-width: 1000px) {
+  .separator {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .contacts-sellers {
+    padding-left: 15%
+  }
+  .footer-logotype {
+    margin-left: 5%;
+  }
+  .footer-social ul{
+    padding-left: 0;
+  }
+  .subscribe-form {
+    margin-right: 0;
+  }
+}
+
+.subscribe-form-email:focus::-webkit-input-placeholder {
+  color: transparent
+}
+
+.subscribe-form-email:focus::-moz-placeholder {
+  color: transparent
+}
+
+.subscribe-form-email:focus:-moz-placeholder {
+  color: transparent
+}
+
+.subscribe-form-email:focus:-ms-input-placeholder {
+  color: transparent
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes bounceInRight {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInRight {
+  animation-name: bounceInRight;
+}
+
+@keyframes bounceInLeft {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInLeft {
+  animation-name: bounceInLeft;
+}
