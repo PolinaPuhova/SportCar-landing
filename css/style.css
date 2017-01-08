@@ -291,7 +291,7 @@ h2 {
 }
 
 .contacts-btn:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 255, 0.2);
   border: 2px solid #323232;
   padding: 9px 59px;
 }
